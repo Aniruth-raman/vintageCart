@@ -8,7 +8,7 @@ import { AddfeedbackComponent } from '../addfeedback/addfeedback.component';
   styleUrls: ['./feedback.component.scss'],
 })
 export class FeedbackComponent {
-  constructor(private dialog:MatDialog) {}
+  constructor(private dialog: MatDialog) {}
   addFeedback(): void {
     this.dialog.open(AddfeedbackComponent, {
       width: '30%',
